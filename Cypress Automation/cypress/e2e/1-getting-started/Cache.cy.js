@@ -11,6 +11,6 @@ describe('Validate cookies and cache', () =>{
        cy.clearCookies()
        cy.getCookies().should('be.empty')
 
-       
+       //Cache
     })
 })

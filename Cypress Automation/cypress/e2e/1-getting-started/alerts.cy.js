@@ -23,6 +23,7 @@ describe('Alerts Validation', () =>{
    })
 
    it('Stub the prompt',()=>{
+    //This is frist comit
     cy.visit("https://the-internet.herokuapp.com/javascript_alerts")
     cy.wait(3000)
     cy.window().then(function(jsAl) {

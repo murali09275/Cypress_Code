@@ -13,6 +13,7 @@ describe('Alerts Validation', () =>{
     })
 
     it.skip('Click om cancel or OK button', ()=>{
+        // Iaam second commit
         cy.visit("https://the-internet.herokuapp.com/javascript_alerts")
         cy.wait(3000)
         cy.get('.example > ul > li:nth-child(2) > button').click()
